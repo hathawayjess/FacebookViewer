@@ -1,0 +1,26 @@
+{
+  "name": "facebookviewer",
+  "version": "1.0.0",
+  "description": "FacebookViewer\r ==============",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hathawayjess/FacebookViewer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hathawayjess/FacebookViewer/issues"
+  },
+  "homepage": "https://github.com/hathawayjess/FacebookViewer#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.0"
+  }
+}
